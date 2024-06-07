@@ -15,6 +15,12 @@ source my_env/bin/activate
 ```
 cd jonlim && pip3 install -r requirements.txt
 ```
+## Create a new file .env on the project's root directory, jonlim, set up external SMTP configuration to send emails
+```
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+DEFAULT_FROM_EMAIL=
+```
 ## Start Development Server
 ```
 cd jonlim && python3 manage.py runserver
